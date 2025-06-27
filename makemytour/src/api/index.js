@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BACKEND_URL = "https://makemytrip-clone-gqck.onrender.com/";
+const BACKEND_URL = "https://makemytrip-clone-gqck.onrender.com";
 
 export const login = async (email, password) => {
   try {
