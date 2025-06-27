@@ -259,11 +259,11 @@ const BookHotelPage = () => {
           <div className="flex items-center space-x-2 text-sm">
             <Link href="/" className="text-blue-500">
               Home
-            </a>
+            </Link>
             <ChevronRight className="w-4 h-4 text-gray-400" />
             <Link href="/" className="text-blue-500">
               {hotel?.location}
-            </a>
+            </Link>
             <ChevronRight className="w-4 h-4 text-gray-400" />
             <span className="text-gray-600">{hotel?.hotelName}</span>
           </div>
